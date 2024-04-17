@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.4)
+project(pybindtest)
+add_subdirectory(extern/pybind11)
+pybind11_add_module(module_name main.cpp)
+target_include_directories(module_name PRIVATE extern/pybind11/include)
