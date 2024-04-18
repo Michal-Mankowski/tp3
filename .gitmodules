@@ -2,9 +2,6 @@
 	path = extern/pybind11
 	url = ../../pybind/pybind11
 	branch = stable
-[submodule "build/extern/matplotplusplus"]
-	path = build/extern/matplotplusplus
-	url = https://github.com/alandefreitas/matplotplusplus.git
 [submodule "extern/matplotplusplus"]
 	path = extern/matplotplusplus
 	url = https://github.com/alandefreitas/matplotplusplus.git

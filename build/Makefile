@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pol4ke/tp3/build/CMakeFiles /home/pol4ke/tp3/build//CMakeFiles/progress.marks
@@ -117,41 +162,67 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named module_name
+# Target rules for targets named siganalysis
 
 # Build rule for target.
-module_name: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 module_name
-.PHONY : module_name
+siganalysis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 siganalysis
+.PHONY : siganalysis
 
 # fast build rule for target.
-module_name/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_name.dir/build.make CMakeFiles/module_name.dir/build
-.PHONY : module_name/fast
+siganalysis/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/siganalysis.dir/build.make CMakeFiles/siganalysis.dir/build
+.PHONY : siganalysis/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+#=============================================================================
+# Target rules for targets named nodesoup
+
+# Build rule for target.
+nodesoup: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nodesoup
+.PHONY : nodesoup
+
+# fast build rule for target.
+nodesoup/fast:
+	$(MAKE) $(MAKESILENT) -f extern/matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build.make extern/matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/build
+.PHONY : nodesoup/fast
+
+#=============================================================================
+# Target rules for targets named matplot
+
+# Build rule for target.
+matplot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matplot
+.PHONY : matplot
+
+# fast build rule for target.
+matplot/fast:
+	$(MAKE) $(MAKESILENT) -f extern/matplotplusplus/source/matplot/CMakeFiles/matplot.dir/build.make extern/matplotplusplus/source/matplot/CMakeFiles/matplot.dir/build
+.PHONY : matplot/fast
+
+siganalysis.o: siganalysis.cpp.o
+.PHONY : siganalysis.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_name.dir/build.make CMakeFiles/module_name.dir/main.cpp.o
-.PHONY : main.cpp.o
+siganalysis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/siganalysis.dir/build.make CMakeFiles/siganalysis.dir/siganalysis.cpp.o
+.PHONY : siganalysis.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+siganalysis.i: siganalysis.cpp.i
+.PHONY : siganalysis.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_name.dir/build.make CMakeFiles/module_name.dir/main.cpp.i
-.PHONY : main.cpp.i
+siganalysis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/siganalysis.dir/build.make CMakeFiles/siganalysis.dir/siganalysis.cpp.i
+.PHONY : siganalysis.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+siganalysis.s: siganalysis.cpp.s
+.PHONY : siganalysis.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_name.dir/build.make CMakeFiles/module_name.dir/main.cpp.s
-.PHONY : main.cpp.s
+siganalysis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/siganalysis.dir/build.make CMakeFiles/siganalysis.dir/siganalysis.cpp.s
+.PHONY : siganalysis.cpp.s
 
 # Help Target
 help:
@@ -160,11 +231,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... module_name"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... matplot"
+	@echo "... nodesoup"
+	@echo "... siganalysis"
+	@echo "... siganalysis.o"
+	@echo "... siganalysis.i"
+	@echo "... siganalysis.s"
 .PHONY : help
 
 

@@ -1,3 +1,3 @@
-from build.module_name import *
+from build.siganalysis import *
 
-print(add(1,2))
+generate_signal()
