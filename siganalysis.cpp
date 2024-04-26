@@ -1,7 +1,9 @@
 #include <cmath>
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
+#include <pybind11/complex.h>
 #include <matplot/matplot.h>
+
 
 namespace py = pybind11;
 namespace mp = matplot;
@@ -37,9 +39,31 @@ std::vector<double> generate_signal(SignalTypes signal_type, double time, double
     return y;
 }
 
+std::vector<std::complex<double>> dft(std::vector<double> X)
+{
+    int N = X.size();
+    int K = N;
+
+    std::complex<double> sum;
+    std::vector<std::complex<double>> output;
+
+    for(int k=0; k<K; k++){
+        sum = std::complex<double>(0, 0);
+        for(int n=0; n<N; n++){
+            double realPart = cos((2*M_PI*k*n)/N);
+            double imagPart = sin((2*M_PI*k*n)/N);
+            std::complex<double> w (realPart, -imagPart);
+            sum += X[n]*w;
+        }
+        output.push_back(sum);
+    }
+    return output;
+}
+
 PYBIND11_MODULE(siganalysis, handle) {
     handle.doc() = "Module that generates signals, visualises them and manipulates them";
     handle.def("generate_signal", &generate_signal, "Generates signal");
+    handle.def("dft", &dft, "Harmonizing the signal");
     py::enum_<SignalTypes>(handle, "SignalTypes")
         .value("sig_sin", SignalTypes::sig_sin)
         .value("sig_cos", SignalTypes::sig_cos)
