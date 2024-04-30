@@ -34,11 +34,18 @@ std::vector<double> generate_signal(SignalTypes signal_type, double time, double
     if (signal_type == sig_sawtooth) {
         y = mp::transform(x, [&](auto x) { return amplitude * (x - floor(x)); });
     }
-    mp::plot(x, y);
-    mp::show();
     return y;
 }
 
+void visualize_signal(std::vector<double> signal, double time) {
+    std::vector<double> t = mp::linspace(0, time, signal.size());
+    mp::title("Signal");
+    mp::xlabel("Time");
+    mp::ylabel("Value");
+    mp::grid(mp::on);
+    mp::plot(t, signal);
+    mp::show();
+}
 std::vector<std::complex<double>> dft(std::vector<double> X)
 {
     int N = X.size();
@@ -64,6 +71,7 @@ PYBIND11_MODULE(siganalysis, handle) {
     handle.doc() = "Module that generates signals, visualises them and manipulates them";
     handle.def("generate_signal", &generate_signal, "Generates signal");
     handle.def("dft", &dft, "Harmonizing the signal");
+    handle.def("visualize_signal", &visualize_signal, "Visualizes the signal");
     py::enum_<SignalTypes>(handle, "SignalTypes")
         .value("sig_sin", SignalTypes::sig_sin)
         .value("sig_cos", SignalTypes::sig_cos)
