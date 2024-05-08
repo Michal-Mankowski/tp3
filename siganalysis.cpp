@@ -46,23 +46,36 @@ void visualize_signal(std::vector<double> signal, double time) {
     mp::plot(t, signal);
     mp::show();
 }
-std::vector<std::complex<double>> dft(std::vector<double> X)
+std::vector<std::complex<double>> dft(const std::vector<std::complex<double>>& X)
 {
     int N = X.size();
-    int K = N;
+    std::vector<std::complex<double>> output(N, 0.0);
 
-    std::complex<double> sum;
-    std::vector<std::complex<double>> output;
-
-    for(int k=0; k<K; k++){
-        sum = std::complex<double>(0, 0);
-        for(int n=0; n<N; n++){
-            double realPart = cos((2*M_PI*k*n)/N);
-            double imagPart = sin((2*M_PI*k*n)/N);
-            std::complex<double> w (realPart, -imagPart);
-            sum += X[n]*w;
+    for(int k = 0; k < N; k++){
+        std::complex<double> sum(0, 0);
+        for(int n = 0; n < N; n++){
+            double angle = -2 * M_PI * k * n / N;
+            std::complex<double> w(std::cos(angle), std::sin(angle));
+            sum += X[n] * w;
         }
-        output.push_back(sum);
+        output[k] = sum;
+    }
+    return output;
+}
+
+std::vector<std::complex<double>> idft(const std::vector<std::complex<double>>& X)
+{
+    int N = X.size();
+    std::vector<std::complex<double>> output(N, 0.0);
+
+    for(int n = 0; n < N; n++){
+        std::complex<double> sum(0, 0);
+        for(int k = 0; k < N; k++){
+            double angle = 2 * M_PI * k * n / N;
+            std::complex<double> w(std::cos(angle), std::sin(angle));
+            sum += X[k] * w;
+        }
+        output[n] = sum / static_cast<double>(N);
     }
     return output;
 }
