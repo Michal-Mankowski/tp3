@@ -55,7 +55,7 @@ std::vector<std::complex<double>> dft(const std::vector<std::complex<double>>& X
         std::complex<double> sum(0, 0);
         for(int n = 0; n < N; n++){
             double angle = -2 * M_PI * k * n / N;
-            std::complex<double> w(std::cos(angle), std::sin(angle));
+            std::complex<double> w(cos(angle), sin(angle));
             sum += X[n] * w;
         }
         output[k] = sum;
@@ -72,7 +72,7 @@ std::vector<std::complex<double>> idft(const std::vector<std::complex<double>>& 
         std::complex<double> sum(0, 0);
         for(int k = 0; k < N; k++){
             double angle = 2 * M_PI * k * n / N;
-            std::complex<double> w(std::cos(angle), std::sin(angle));
+            std::complex<double> w(cos(angle), sin(angle));
             sum += X[k] * w;
         }
         output[n] = sum / static_cast<double>(N);
