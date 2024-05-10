@@ -19,7 +19,8 @@ def write_wave(filename: str, signal: list, duration: int):
         f.setframerate(framerate)
         signal_bytes = struct.pack('<' + 'h' * len(signal), *[int(sample) for sample in signal])
         f.writeframes(signal_bytes)
-    
+
 audio = read_wave('Power_of_NEO.wav')
-signal = generate_signal(SignalTypes.sig_sin, 35, 2000000, 32767, 10)
-visualize_signal(signal, 35)
+signal = generate_signal(SignalTypes.sig_sin, 10, 50000, 1, 1)
+signal2 = dft(signal)
+signal3 = reverse_dft(signal2)

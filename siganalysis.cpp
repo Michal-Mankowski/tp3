@@ -63,10 +63,10 @@ std::vector<std::complex<double>> dft(const std::vector<std::complex<double>>& X
     return output;
 }
 
-std::vector<std::complex<double>> idft(const std::vector<std::complex<double>>& X)
+std::vector<double> idft(const std::vector<std::complex<double>>& X)
 {
     int N = X.size();
-    std::vector<std::complex<double>> output(N, 0.0);
+    std::vector<double> output(N, 0.0);
 
     for(int n = 0; n < N; n++){
         std::complex<double> sum(0, 0);
@@ -75,7 +75,7 @@ std::vector<std::complex<double>> idft(const std::vector<std::complex<double>>& 
             std::complex<double> w(cos(angle), sin(angle));
             sum += X[k] * w;
         }
-        output[n] = sum / static_cast<double>(N);
+        output[n] = (sum / static_cast<double>(N)).real();
     }
     return output;
 }
@@ -84,6 +84,7 @@ PYBIND11_MODULE(siganalysis, handle) {
     handle.doc() = "Module that generates signals, visualises them and manipulates them";
     handle.def("generate_signal", &generate_signal, "Generates signal");
     handle.def("dft", &dft, "Harmonizing the signal");
+    handle.def("reverse_dft", &idft, "Reverses the dft,");
     handle.def("visualize_signal", &visualize_signal, "Visualizes the signal");
     py::enum_<SignalTypes>(handle, "SignalTypes")
         .value("sig_sin", SignalTypes::sig_sin)
