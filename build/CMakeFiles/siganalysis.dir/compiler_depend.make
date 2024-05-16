@@ -95,6 +95,126 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
   ../extern/pybind11/include/pybind11/pybind11.h \
   ../extern/pybind11/include/pybind11/detail/class.h \
   ../extern/pybind11/include/pybind11/attr.h \
@@ -104,24 +224,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   ../.conda/include/python3.11/pyconfig.h \
   ../.conda/include/python3.11/pymacconfig.h \
   /usr/include/c++/11/stdlib.h \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/stdio.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/unistd.h \
@@ -133,32 +235,19 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/assert.h \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   ../.conda/include/python3.11/pyport.h \
   /usr/include/inttypes.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /usr/include/c++/11/math.h \
   /usr/include/x86_64-linux-gnu/sys/time.h \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
   /usr/include/x86_64-linux-gnu/bits/stat.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -197,7 +286,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   ../.conda/include/python3.11/bytesobject.h \
   ../.conda/include/python3.11/cpython/bytesobject.h \
   ../.conda/include/python3.11/unicodeobject.h \
-  /usr/include/ctype.h \
   ../.conda/include/python3.11/cpython/unicodeobject.h \
   ../.conda/include/python3.11/longobject.h \
   ../.conda/include/python3.11/cpython/longobject.h \
@@ -254,13 +342,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   ../.conda/include/python3.11/cpython/pyerrors.h \
   ../.conda/include/python3.11/pythread.h \
   ../.conda/include/python3.11/cpython/pythread.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
   ../.conda/include/python3.11/cpython/context.h \
   ../.conda/include/python3.11/modsupport.h \
   ../.conda/include/python3.11/cpython/modsupport.h \
@@ -293,28 +374,8 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   ../.conda/include/python3.11/pythread.h \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/cstring \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/bits/nested_exception.h \
   /usr/include/c++/11/forward_list \
   /usr/include/c++/11/bits/forward_list.h \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/forward_list.tcc \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_uninitialized.h \
@@ -322,54 +383,10 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
   /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/cwchar \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/c++/11/ext/concurrence.h \
   /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/string \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/cstdint \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/c++/11/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/11/cctype \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/cstdio \
-  /usr/include/c++/11/cerrno \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/typeindex \
   /usr/include/c++/11/unordered_map \
   /usr/include/c++/11/bits/hashtable.h \
@@ -397,8 +414,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   /usr/include/c++/11/bits/ios_base.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
   /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/optional \
   ../extern/pybind11/include/pybind11/detail/internals.h \
@@ -406,7 +421,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   /usr/include/c++/11/cxxabi.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
   /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/bits/stl_heap.h \
@@ -416,13 +430,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
   ../extern/pybind11/include/pybind11/gil.h \
   /usr/include/c++/11/cassert \
   ../extern/pybind11/include/pybind11/gil_safe_call_once.h \
-  /usr/include/c++/11/mutex \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/bits/std_mutex.h \
-  /usr/include/c++/11/bits/unique_lock.h \
   ../extern/pybind11/include/pybind11/typing.h \
   ../extern/pybind11/include/pybind11/stl.h \
   /usr/include/c++/11/deque \
@@ -601,12 +608,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
 
 ../extern/pybind11/include/pybind11/typing.h:
 
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/c++/11/ctime:
-
-/usr/include/c++/11/ratio:
-
 ../extern/pybind11/include/pybind11/gil_safe_call_once.h:
 
 /usr/include/c++/11/cassert:
@@ -626,12 +627,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
 /usr/include/c++/11/bits/uniform_int_dist.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
-
-/usr/include/c++/11/mutex:
-
-../extern/pybind11/include/pybind11/detail/typeid.h:
-
-/usr/include/c++/11/system_error:
 
 ../extern/matplotplusplus/source/matplot/axes_objects/bars.h:
 
@@ -663,28 +658,6 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
 
 /usr/include/c++/11/unordered_map:
 
-/usr/include/c++/11/bits/basic_string.tcc:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
-
-/usr/include/c++/11/cctype:
-
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
-/usr/include/locale.h:
-
-/usr/include/c++/11/clocale:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/c++/11/bits/localefwd.h:
-
-/usr/include/c++/11/bits/char_traits.h:
-
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/pstl/execution_defs.h:
@@ -693,57 +666,9 @@ CMakeFiles/siganalysis.dir/siganalysis.cpp.o: ../siganalysis.cpp \
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
-../extern/matplotplusplus/source/matplot/backend/backend_registry.h:
-
-/usr/include/c++/11/bits/valarray_array.tcc:
-
-/usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/bits/atomic_base.h:
-
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
-
-extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
-
-../extern/matplotplusplus/source/matplot/core/axis_type.h:
-
-/usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/c++/11/cwchar:
-
-/usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/c++/11/bits/functional_hash.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/ios:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/utility:
-
-/usr/include/c++/11/bits/unique_ptr.h:
-
-/usr/include/c++/11/bits/unique_lock.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
 /usr/include/c++/11/bit:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -751,37 +676,11 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/c++/11/memory:
 
-/usr/include/c++/11/bits/shared_ptr.h:
-
-/usr/include/c++/11/bits/stl_construct.h:
-
-/usr/include/c++/11/ext/new_allocator.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/initializer_list:
-
 ../extern/matplotplusplus/source/matplot/util/common.h:
 
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/c++/11/forward_list:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
-/usr/include/c++/11/bits/sstream.tcc:
-
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/c++/11/bits/stl_vector.h:
 
@@ -835,107 +734,259 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 ../.conda/include/python3.11/cpython/context.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+../.conda/include/python3.11/pythread.h:
 
-../.conda/include/python3.11/enumobject.h:
+../extern/matplotplusplus/source/matplot/axes_objects/string_function.h:
 
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+../.conda/include/python3.11/pyerrors.h:
 
-/usr/include/c++/11/stdexcept:
+/usr/include/c++/11/bits/indirect_array.h:
 
-../.conda/include/python3.11/cpython/fileobject.h:
+../.conda/include/python3.11/codecs.h:
 
-/usr/include/strings.h:
+../.conda/include/python3.11/cpython/picklebufobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+../.conda/include/python3.11/cpython/weakrefobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+../extern/matplotplusplus/source/matplot/axes_objects/line.h:
 
-../extern/pybind11/include/pybind11/detail/internals.h:
+../.conda/include/python3.11/ceval.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+../.conda/include/python3.11/genericaliasobject.h:
 
-/usr/include/c++/11/tr1/ell_integral.tcc:
+../extern/matplotplusplus/source/matplot/freestanding/plot.h:
 
-/usr/include/errno.h:
+../.conda/include/python3.11/descrobject.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/c++/11/typeindex:
-
-../.conda/include/python3.11/pylifecycle.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-../.conda/include/python3.11/pyconfig.h:
-
-../siganalysis.cpp:
+../.conda/include/python3.11/cpython/genobject.h:
 
 ../.conda/include/python3.11/cpython/pystate.h:
 
-/usr/include/c++/11/bits/ostream_insert.h:
+../.conda/include/python3.11/pystate.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/c++/11/bits/hashtable.h:
 
-/usr/include/c++/11/stdlib.h:
+../.conda/include/python3.11/cpython/cellobject.h:
 
-/usr/include/c++/11/cstdio:
+/usr/include/c++/11/bits/align.h:
 
-../.conda/include/python3.11/cpython/setobject.h:
+../.conda/include/python3.11/cpython/sysmodule.h:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
+../.conda/include/python3.11/cpython/traceback.h:
 
-/usr/include/c++/11/cerrno:
+../.conda/include/python3.11/cpython/pyframe.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+../.conda/include/python3.11/pyframe.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+../.conda/include/python3.11/cpython/code.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+../.conda/include/python3.11/pycapsule.h:
 
-/usr/include/c++/11/ext/concurrence.h:
+../.conda/include/python3.11/moduleobject.h:
 
-../.conda/include/python3.11/patchlevel.h:
+../.conda/include/python3.11/enumobject.h:
 
-../extern/pybind11/include/pybind11/detail/common.h:
+../.conda/include/python3.11/cpython/dictobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+../.conda/include/python3.11/cpython/listobject.h:
 
-../extern/matplotplusplus/source/matplot/backend/backend_interface.h:
+/usr/include/c++/11/bits/list.tcc:
 
-/usr/include/c++/11/bits/charconv.h:
+../.conda/include/python3.11/iterobject.h:
 
-../extern/pybind11/include/pybind11/pybind11.h:
+../.conda/include/python3.11/cpython/tupleobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+../.conda/include/python3.11/tupleobject.h:
 
-/usr/include/c++/11/tr1/poly_hermite.tcc:
+../.conda/include/python3.11/rangeobject.h:
 
-/usr/include/c++/11/cxxabi.h:
+../extern/matplotplusplus/source/matplot/matplot.h:
 
-../.conda/include/python3.11/Python.h:
+../.conda/include/python3.11/cpython/fileutils.h:
+
+../.conda/include/python3.11/cpython/complexobject.h:
+
+../extern/pybind11/include/pybind11/pytypes.h:
+
+../.conda/include/python3.11/cpython/funcobject.h:
+
+../.conda/include/python3.11/complexobject.h:
+
+../.conda/include/python3.11/cpython/floatobject.h:
+
+../.conda/include/python3.11/cpython/longintrepr.h:
+
+../.conda/include/python3.11/cpython/longobject.h:
+
+/usr/include/c++/11/set:
+
+../.conda/include/python3.11/cpython/unicodeobject.h:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+../.conda/include/python3.11/unicodeobject.h:
+
+../.conda/include/python3.11/cpython/bytearrayobject.h:
+
+../extern/matplotplusplus/source/matplot/freestanding/axes_lim.h:
+
+../.conda/include/python3.11/bytearrayobject.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+../.conda/include/python3.11/typeslots.h:
+
+../.conda/include/python3.11/cpython/odictobject.h:
+
+../.conda/include/python3.11/cpython/objimpl.h:
+
+../.conda/include/python3.11/objimpl.h:
+
+../.conda/include/python3.11/object.h:
+
+../extern/matplotplusplus/source/matplot/axes_objects/stair.h:
+
+../.conda/include/python3.11/cpython/bytesobject.h:
+
+../.conda/include/python3.11/pybuffer.h:
+
+../.conda/include/python3.11/pytypedefs.h:
+
+../.conda/include/python3.11/cpython/pymem.h:
+
+../.conda/include/python3.11/pymath.h:
+
+../extern/matplotplusplus/source/matplot/freestanding/histcounts.h:
+
+../.conda/include/python3.11/exports.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+
+/usr/include/c++/11/cwctype:
+
+../.conda/include/python3.11/sliceobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
+/usr/include/c++/11/bits/fstream.tcc:
+
+/usr/include/asm-generic/posix_types.h:
+
+../.conda/include/python3.11/tracemalloc.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+../.conda/include/python3.11/dictobject.h:
+
+../.conda/include/python3.11/cpython/pydebug.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/c++/11/bits/functional_hash.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+../.conda/include/python3.11/weakrefobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/c++/11/cwchar:
+
+/usr/include/c++/11/bits/forward_list.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/c++/11/bits/string_view.tcc:
+
+../.conda/include/python3.11/memoryobject.h:
+
+../.conda/include/python3.11/cpython/object.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/typeinfo:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/c++/11/bits/locale_facets.h:
+
+../.conda/include/python3.11/fileobject.h:
+
+/usr/include/c++/11/bits/exception.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/11/unordered_set:
+
+../.conda/include/python3.11/cpython/classobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+../.conda/include/python3.11/pyconfig.h:
+
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
-../extern/pybind11/include/pybind11/pytypes.h:
-
-../.conda/include/python3.11/complexobject.h:
-
-../.conda/include/python3.11/cpython/funcobject.h:
+/usr/include/c++/11/bits/localefwd.h:
 
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
-../.conda/include/python3.11/object.h:
+../extern/matplotplusplus/source/matplot/axes_objects/network.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+/usr/include/c++/11/tr1/ell_integral.tcc:
+
+../.conda/include/python3.11/cpython/pytime.h:
+
+/usr/include/c++/11/bits/std_mutex.h:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+../.conda/include/python3.11/cpython/pyerrors.h:
+
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/c++/11/cstdlib:
 
-/usr/include/c++/11/array:
+../.conda/include/python3.11/osmodule.h:
 
-/usr/include/c++/11/tr1/beta_function.tcc:
+../.conda/include/python3.11/listobject.h:
+
+/usr/include/assert.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
+/usr/include/c++/11/new:
+
+../siganalysis.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
@@ -943,11 +994,7 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/linux/close_range.h:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/c++/11/type_traits:
-
-../.conda/include/python3.11/cpython/picklebufobject.h:
+/usr/include/c++/11/tuple:
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
@@ -957,27 +1004,33 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/c++/11/bits/stl_pair.h:
 
-../extern/matplotplusplus/source/matplot/freestanding/histcounts.h:
+../extern/matplotplusplus/source/matplot/core/axis_type.h:
 
-../.conda/include/python3.11/exports.h:
+/usr/include/c++/11/ext/atomicity.h:
 
-../.conda/include/python3.11/cpython/dictobject.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+/usr/include/c++/11/atomic:
 
 /usr/include/c++/11/bits/specfun.h:
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+../.conda/include/python3.11/pymem.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/strings.h:
 
 /usr/include/c++/11/bits/stl_list.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/c++/11/array:
 
 ../extern/matplotplusplus/source/matplot/freestanding/axes_functions.h:
 
@@ -997,63 +1050,27 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-../.conda/include/python3.11/pymath.h:
-
-/usr/include/c++/11/bits/forward_list.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/usr/include/c++/11/bits/hashtable.h:
-
-../.conda/include/python3.11/cpython/cellobject.h:
-
 ../.conda/include/python3.11/cpython/pythonrun.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-../.conda/include/python3.11/cpython/warnings.h:
+/usr/include/x86_64-linux-gnu/sys/select.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
-../.conda/include/python3.11/cpython/floatobject.h:
-
-/usr/include/c++/11/functional:
-
-../.conda/include/python3.11/warnings.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/c++/11/tr1/legendre_function.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
 /usr/include/c++/11/ext/type_traits.h:
-
-../extern/matplotplusplus/source/matplot/core/legend.h:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
 
 /usr/include/c++/11/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/string.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
@@ -1087,37 +1104,29 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
-/usr/include/c++/11/bits/alloc_traits.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/c++/11/bits/fstream.tcc:
-
-/usr/include/asm-generic/posix_types.h:
-
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
-/usr/include/c++/11/string_view:
+../extern/matplotplusplus/source/matplot/backend/backend_registry.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+/usr/include/c++/11/bits/valarray_array.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/include/c++/11/initializer_list:
 
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-../.conda/include/python3.11/rangeobject.h:
+/usr/include/c++/11/iosfwd:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/11/ctime:
 
 ../.conda/include/python3.11/pyport.h:
 
 /usr/include/c++/11/bits/functexcept.h:
+
+../.conda/include/python3.11/cpython/warnings.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 ../extern/matplotplusplus/source/matplot/axes_objects/parallel_lines.h:
 
@@ -1125,11 +1134,39 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/x86_64-linux-gnu/sys/stat.h:
 
+/usr/include/errno.h:
+
 /usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
 
 /usr/include/features.h:
 
 /usr/include/c++/11/pstl/pstl_config.h:
+
+../.conda/include/python3.11/cpython/descrobject.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/c++/11/type_traits:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/usr/include/c++/11/bits/std_function.h:
+
+../.conda/include/python3.11/pymacro.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+../.conda/include/python3.11/structseq.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/11/bits/std_thread.h:
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
@@ -1137,13 +1174,13 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
+../.conda/include/python3.11/setobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
 /usr/include/c++/11/complex:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-../.conda/include/python3.11/weakrefobject.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
@@ -1155,11 +1192,37 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-../.conda/include/python3.11/cpython/pydebug.h:
+/usr/include/stdlib.h:
 
-../.conda/include/python3.11/dictobject.h:
+../extern/matplotplusplus/source/matplot/axes_objects/histogram.h:
 
-/usr/include/linux/posix_types.h:
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+../.conda/include/python3.11/methodobject.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+../.conda/include/python3.11/longobject.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
 
 ../extern/matplotplusplus/source/matplot/core/axes_type.h:
 
@@ -1169,47 +1232,15 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 ../extern/pybind11/include/pybind11/attr.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/stdlib.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-../.conda/include/python3.11/structseq.h:
-
-../extern/matplotplusplus/source/matplot/axes_objects/histogram.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-../.conda/include/python3.11/cpython/longobject.h:
-
-../.conda/include/python3.11/cpython/longintrepr.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/c++/11/cmath:
-
-../.conda/include/python3.11/cpython/descrobject.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/stdio.h:
+../extern/pybind11/include/pybind11/detail/internals.h:
 
-/usr/include/c++/11/tr1/special_function_util.h:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/c++/11/cstdint:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx.h:
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 ../extern/pybind11/include/pybind11/cast.h:
 
@@ -1219,31 +1250,17 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/c++/11/math.h:
 
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-../.conda/include/python3.11/boolobject.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-../.conda/include/python3.11/tupleobject.h:
-
 ../.conda/include/python3.11/import.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+/usr/include/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 ../extern/pybind11/include/pybind11/detail/class.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/c++/11/exception:
-
-../.conda/include/python3.11/pymacconfig.h:
 
 ../extern/matplotplusplus/source/matplot/axes_objects/surface.h:
 
@@ -1252,6 +1269,10 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/c++/11/backward/binders.h:
 
 /usr/include/c++/11/bits/gslice_array.h:
 
@@ -1263,49 +1284,107 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+/usr/include/c++/11/typeindex:
+
+../.conda/include/python3.11/pylifecycle.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/11/bits/stl_heap.h:
 
 /usr/include/c++/11/bits/std_abs.h:
 
-/usr/include/c++/11/cwctype:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
-
-../.conda/include/python3.11/sliceobject.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-../.conda/include/python3.11/pyframe.h:
+/usr/include/c++/11/bits/invoke.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/c++/11/unordered_set:
+/usr/include/c++/11/ext/new_allocator.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/include/c++/11/bits/memoryfwd.h:
 
-../.conda/include/python3.11/cpython/classobject.h:
+/usr/include/c++/11/bits/stl_function.h:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+/usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/c++/11/typeinfo:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
-../.conda/include/python3.11/cpython/object.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
-../.conda/include/python3.11/memoryobject.h:
+/usr/include/wctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+/usr/include/sched.h:
 
-/usr/include/wchar.h:
+../.conda/include/python3.11/sysmodule.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/asm-generic/errno.h:
 
-/usr/include/inttypes.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+../extern/pybind11/include/pybind11/detail/typeid.h:
+
+/usr/include/c++/11/mutex:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
+
+/usr/include/c++/11/functional:
+
+../.conda/include/python3.11/warnings.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/11/bits/forward_list.tcc:
+
+../.conda/include/python3.11/cpython/initconfig.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/11/chrono:
+
+../.conda/include/python3.11/cpython/setobject.h:
+
+/usr/include/c++/11/cstdio:
+
+/usr/include/c++/11/condition_variable:
+
+/usr/include/c++/11/thread:
+
+/usr/include/c++/11/ratio:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/11/cstdint:
 
 /usr/include/c++/11/bits/erase_if.h:
 
@@ -1315,11 +1394,163 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/stdint.h:
 
-/usr/include/c++/11/bits/basic_string.h:
-
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
+/usr/include/c++/11/bits/basic_string.h:
+
 /usr/include/linux/limits.h:
+
+../.conda/include/python3.11/traceback.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/11/bits/char_traits.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/11/bits/concept_check.h:
+
+/usr/include/asm-generic/types.h:
+
+../.conda/include/python3.11/boolobject.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/c++/11/future:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/c++/11/ios:
+
+/usr/include/c++/11/utility:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+../.conda/include/python3.11/cpython/fileobject.h:
+
+/usr/include/c++/11/stdexcept:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+../.conda/include/python3.11/frameobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/c++/11/clocale:
+
+../extern/matplotplusplus/source/matplot/util/colors.h:
+
+/usr/include/c++/11/bits/stl_algo.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/c++/11/cctype:
+
+/usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/c++/11/bits/ostream_insert.h:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/11/ext/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/11/string_view:
+
+../extern/matplotplusplus/source/matplot/backend/backend_interface.h:
+
+../extern/pybind11/include/pybind11/pybind11.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/bits/basic_string.tcc:
+
+../.conda/include/python3.11/cpython/methodobject.h:
+
+/usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/c++/11/bits/atomic_futex.h:
+
+../extern/pybind11/include/pybind11/detail/common.h:
+
+/usr/include/c++/11/ext/concurrence.h:
+
+../.conda/include/python3.11/patchlevel.h:
+
+/usr/include/c++/11/cxxabi.h:
+
+../.conda/include/python3.11/Python.h:
+
+/usr/include/c++/11/exception:
+
+../.conda/include/python3.11/pymacconfig.h:
+
+/usr/include/c++/11/stdlib.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+../extern/matplotplusplus/source/matplot/core/legend.h:
+
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+../extern/matplotplusplus/source/matplot/core/figure_type.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/inttypes.h:
 
 /usr/include/c++/11/bits/valarray_before.h:
 
@@ -1331,53 +1562,17 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
-/usr/include/asm-generic/types.h:
+../.conda/include/python3.11/pyhash.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/c++/11/string:
 
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-../.conda/include/python3.11/frameobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/c++/11/ext/string_conversions.h:
-
-../.conda/include/python3.11/cpython/methodobject.h:
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
-../extern/matplotplusplus/source/matplot/core/figure_type.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-../extern/matplotplusplus/source/matplot/axes_objects/network.h:
-
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-../.conda/include/python3.11/osmodule.h:
-
-/usr/include/assert.h:
-
-../.conda/include/python3.11/listobject.h:
+/usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/include/unistd.h:
-
-/usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
@@ -1386,177 +1581,3 @@ extern/matplotplusplus/source/matplot/matplot/detail/exports.h:
 /usr/include/linux/types.h:
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
-
-../.conda/include/python3.11/cpython/objimpl.h:
-
-../.conda/include/python3.11/cpython/odictobject.h:
-
-../extern/matplotplusplus/source/matplot/util/colors.h:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-../.conda/include/python3.11/typeslots.h:
-
-/usr/include/c++/11/bits/std_mutex.h:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-../.conda/include/python3.11/cpython/pytime.h:
-
-../.conda/include/python3.11/tracemalloc.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-../.conda/include/python3.11/pymacro.h:
-
-/usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/linux/stddef.h:
-
-../.conda/include/python3.11/pymem.h:
-
-../.conda/include/python3.11/pytypedefs.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-../.conda/include/python3.11/setobject.h:
-
-../.conda/include/python3.11/cpython/pymem.h:
-
-../.conda/include/python3.11/objimpl.h:
-
-/usr/include/c++/11/string:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-../.conda/include/python3.11/pyhash.h:
-
-../extern/matplotplusplus/source/matplot/freestanding/axes_lim.h:
-
-../.conda/include/python3.11/bytearrayobject.h:
-
-../.conda/include/python3.11/cpython/bytearrayobject.h:
-
-../.conda/include/python3.11/sysmodule.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-../extern/matplotplusplus/source/matplot/axes_objects/stair.h:
-
-../.conda/include/python3.11/pybuffer.h:
-
-../.conda/include/python3.11/cpython/bytesobject.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-../.conda/include/python3.11/unicodeobject.h:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/11/set:
-
-../.conda/include/python3.11/cpython/unicodeobject.h:
-
-/usr/include/c++/11/limits:
-
-../.conda/include/python3.11/longobject.h:
-
-../extern/matplotplusplus/source/matplot/matplot.h:
-
-../.conda/include/python3.11/cpython/fileutils.h:
-
-../.conda/include/python3.11/cpython/complexobject.h:
-
-../.conda/include/python3.11/cpython/listobject.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/features-time64.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-../.conda/include/python3.11/methodobject.h:
-
-../.conda/include/python3.11/moduleobject.h:
-
-../.conda/include/python3.11/cpython/code.h:
-
-/usr/include/c++/11/bits/locale_facets.h:
-
-/usr/include/c++/11/bits/exception.h:
-
-../.conda/include/python3.11/fileobject.h:
-
-../.conda/include/python3.11/pycapsule.h:
-
-../.conda/include/python3.11/cpython/pyframe.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-../.conda/include/python3.11/traceback.h:
-
-/usr/include/c++/11/bits/align.h:
-
-../.conda/include/python3.11/cpython/sysmodule.h:
-
-../.conda/include/python3.11/cpython/traceback.h:
-
-/usr/include/c++/11/bits/list.tcc:
-
-../.conda/include/python3.11/cpython/tupleobject.h:
-
-../.conda/include/python3.11/iterobject.h:
-
-/usr/include/c++/11/chrono:
-
-/usr/include/c++/11/bits/forward_list.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-../.conda/include/python3.11/cpython/initconfig.h:
-
-../.conda/include/python3.11/pystate.h:
-
-../.conda/include/python3.11/cpython/genobject.h:
-
-../extern/matplotplusplus/source/matplot/freestanding/plot.h:
-
-../.conda/include/python3.11/descrobject.h:
-
-../extern/matplotplusplus/source/matplot/axes_objects/line.h:
-
-../.conda/include/python3.11/ceval.h:
-
-../.conda/include/python3.11/genericaliasobject.h:
-
-../extern/matplotplusplus/source/matplot/axes_objects/string_function.h:
-
-../.conda/include/python3.11/pyerrors.h:
-
-../.conda/include/python3.11/cpython/weakrefobject.h:
-
-/usr/include/c++/11/bits/indirect_array.h:
-
-../.conda/include/python3.11/codecs.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-../.conda/include/python3.11/cpython/pyerrors.h:
-
-../.conda/include/python3.11/pythread.h:
-
-/usr/include/wctype.h:
-
-/usr/include/sched.h:
-
-/usr/include/c++/11/ext/alloc_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:

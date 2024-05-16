@@ -12,7 +12,7 @@ def read_wave(filename: str) -> tuple[float, list[float]]:
 def write_wave(filename: str, signal: list, duration: int):
     channels = 2
     framerate = int(len(signal) / (duration * channels)) 
-    samplewidth = 2;
+    samplewidth = 2
     with wave.open(filename, 'wb') as f:
         f.setnchannels(channels)
         f.setsampwidth(samplewidth)
@@ -20,7 +20,6 @@ def write_wave(filename: str, signal: list, duration: int):
         signal_bytes = struct.pack('<' + 'h' * len(signal), *[int(sample) for sample in signal])
         f.writeframes(signal_bytes)
 
-audio = read_wave('Power_of_NEO.wav')
-signal = generate_signal(SignalTypes.sig_sin, 10, 50000, 1, 1)
-signal2 = dft(signal)
-signal3 = reverse_dft(signal2)
+audio = read_wave('dc.wav')
+filteredSignal = frequency_filter(audio[1], 200)
+write_wave('test.wav', filteredSignal, audio[0])
