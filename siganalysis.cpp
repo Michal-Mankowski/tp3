@@ -16,7 +16,8 @@ enum SignalTypes {
     sig_square,
     sig_sawtooth,
 };
-std::vector<double> generate_signal(SignalTypes signal_type, double time, double sampling, double amplitude, double frequency) {
+
+std::vector<double> generate_signal(const SignalTypes& signal_type, const double& time, const int& sampling, const double& amplitude, const double& frequency) {
     std::vector<double> x = mp::linspace(0, time, sampling);
     std::vector<double> y;
     if (signal_type == sig_sin) {
@@ -34,15 +35,16 @@ std::vector<double> generate_signal(SignalTypes signal_type, double time, double
     return y;
 }
 
-void visualize_signal(const std::vector<double> &signal, double time) {
+void visualize_signal(const std::vector<double> &signal, const double& time, const std::string& filename) {
     std::vector<double> t = mp::linspace(0, time, signal.size());
     mp::title("Signal");
     mp::xlabel("Time");
     mp::ylabel("Value");
     mp::grid(mp::on);
     mp::plot(t, signal);
-    mp::show();
+    mp::save(filename);
 }
+
 std::vector<std::complex<double>> dft(const std::vector<double>& X)
 {
     int N = X.size();
@@ -64,7 +66,7 @@ std::vector<double> dft(const std::vector<std::complex<double>>& X)
 {
     int N = X.size();
     std::vector<double> output(N, 0.0);
-
+    
     for(int n = 0; n < N; n++){
         std::complex<double> sum(0, 0);
         for(int k = 0; k < N; k++){
@@ -77,16 +79,20 @@ std::vector<double> dft(const std::vector<std::complex<double>>& X)
     return output;
 }
 
-std::vector<double> frequency_filter(std::vector<double> signal, double cutoff) {
+std::vector<double> frequency_filter(const std::vector<double>& signal, const double& cutoff) {
     auto signalAfterDFT = dft(signal);
     int size = signal.size();;
     for (int i = 0; i < cutoff && i < size; ++i) {
         signalAfterDFT[i] = std::complex<double>(0, 0);
     }
+    for (int i = size - 1; i >= size - cutoff; --i) {
+        signalAfterDFT[i] = std::complex<double>(0, 0);
+    }
     return dft(signalAfterDFT);
 
 }
-std::vector<double> complexToPowerVector(std::vector<std::complex<double>> X) {
+
+std::vector<double> complexToPowerVector(const std::vector<std::complex<double>>& X) {
     int size = X.size();
     std::vector<double> Power(size);
     for (int i = 0; i < size; i++) {
@@ -94,6 +100,7 @@ std::vector<double> complexToPowerVector(std::vector<std::complex<double>> X) {
     }
     return Power;
 }
+
 PYBIND11_MODULE(siganalysis, handle) {
     handle.doc() = "Module that generates signals, visualises them and manipulates them";
     handle.def("generate_signal", &generate_signal, "Generates signal");

@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -flto -shared  -o siganalysis.cpython-311-x86_64-linux-gnu.so CMakeFiles/siganalysis.dir/siganalysis.cpp.o  extern/matplotplusplus/source/matplot/libmatplot.a extern/matplotplusplus/source/3rd_party/libnodesoup.a 
